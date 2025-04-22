@@ -25,5 +25,4 @@ jobs:
           flake8 service --count --max-complexity=10 --max-line-length=127 --statistics
 
       - name: Run unit tests with nose
-        run: |
-          nosetest -v --with-spec --spec-color --with-coverage
+        run: nosetests -v --with-spec --spec-color --with-coverage --cover-package=app
