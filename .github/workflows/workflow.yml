@@ -26,4 +26,4 @@ jobs:
 
       - name: Run unit tests with nose
         run: |
-          nosetest -v --with-spec --spec-color --with-coverage --cover-package=service
+          nosetest -v --with-spec --spec-color --with-coverage
